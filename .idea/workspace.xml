@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f51b74a8-c785-4f92-9f52-5caeada3a203" name="Default Changelist" comment="" />
+    <list default="true" id="df04fc5f-c6d5-4ca6-84a6-558e84a91305" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,10 +12,22 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1aGDDpcBJeQA7wrzRcTarfhFv19" />
+  <component name="ProjectId" id="1aGLWLBgpe0VIUDSAUKieWavs7a" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -26,39 +38,49 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Project_test/build.gradle" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="first" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="first" />
+      <module name="Project_test.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.first" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f51b74a8-c785-4f92-9f52-5caeada3a203" name="Default Changelist" comment="" />
-      <created>1586352919583</created>
+      <changelist id="df04fc5f-c6d5-4ca6-84a6-558e84a91305" name="Default Changelist" comment="" />
+      <created>1586357013466</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1586352919583</updated>
+      <updated>1586357013466</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="179" y="209" key="#Project_Structure" timestamp="1586353146244">
+    <state x="374" y="158" key="#Project_Structure" timestamp="1586357025003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="179" y="209" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1586353146244" />
-    <state x="362" y="358" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586353293645">
+    <state x="374" y="158" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1586357025003" />
+    <state x="562" y="209" key="FileChooserDialogImpl" timestamp="1586357040874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="362" y="358" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586353293645" />
-    <state x="367" y="260" key="FileChooserDialogImpl" timestamp="1586353115476">
+    <state x="562" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586357040874" />
+    <state x="262" y="74" key="SettingsEditor" timestamp="1586357043424">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="367" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586353115476" />
-    <state x="68" y="125" key="SettingsEditor" timestamp="1586353820564">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="68" y="125" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586353820564" />
+    <state x="262" y="74" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586357043424" />
   </component>
 </project>
