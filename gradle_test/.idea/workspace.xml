@@ -15,6 +15,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -24,8 +27,18 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="WARN_ABOUT_CRLF" value="false" />
+    <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
   </component>
   <component name="ProjectId" id="1aX4n8LQLH5TXNI6aDosaO7C7CT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -38,98 +51,92 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="extract.method.default.visibility" value="public" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Gradle.NewwTest.neww">
-    <configuration name="AddressbookTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.igorek.addressbook.AddressbookTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="NewwTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.igorek.addressbook.NewwTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="NewwTest.neww" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.igorek.addressbook.NewwTest.neww&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="Hallife3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.igorek.addressbook.appmanager" />
+      <recent name="ru.igorek.addressbook" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.deleteGroup">
+    <configuration name="createNewGroup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gradle_test.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.igorek.addressbook.*" />
+          <option name="PATTERN" value="ru.igorek.addressbook.appmanager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.igorek.addressbook" />
-      <option name="MAIN_CLASS_NAME" value="ru.igorek.addressbook.Hallife3Test" />
+      <option name="PACKAGE_NAME" value="ru.igorek.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.igorek.addressbook.tests.createNewGroup" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hallife3Test.hallife3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="createNewGroup.neww" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gradle_test.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.igorek.addressbook.*" />
+          <option name="PATTERN" value="ru.igorek.addressbook.appmanager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.igorek.addressbook" />
-      <option name="MAIN_CLASS_NAME" value="ru.igorek.addressbook.Hallife3Test" />
-      <option name="METHOD_NAME" value="hallife3" />
+      <option name="PACKAGE_NAME" value="ru.igorek.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.igorek.addressbook.tests.createNewGroup" />
+      <option name="METHOD_NAME" value="neww" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="createNewGroup.testCreateGropus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gradle_test.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.igorek.addressbook.appmanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.igorek.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.igorek.addressbook.tests.createNewGroup" />
+      <option name="METHOD_NAME" value="testCreateGropus" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="deleteGroup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gradle_test.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.igorek.addressbook.appmanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.igorek.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.igorek.addressbook.tests.deleteGroup" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="deleteGroup.deleteGroup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gradle_test.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.igorek.addressbook.appmanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.igorek.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.igorek.addressbook.tests.deleteGroup" />
+      <option name="METHOD_NAME" value="deleteGroup" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.NewwTest.neww" />
-        <item itemvalue="Gradle.NewwTest" />
-        <item itemvalue="Gradle.AddressbookTest" />
-        <item itemvalue="JUnit.Hallife3Test.hallife3" />
-        <item itemvalue="JUnit.Hallife3Test" />
+        <item itemvalue="JUnit.deleteGroup" />
+        <item itemvalue="JUnit.createNewGroup.testCreateGropus" />
+        <item itemvalue="JUnit.createNewGroup" />
+        <item itemvalue="JUnit.deleteGroup.deleteGroup" />
+        <item itemvalue="JUnit.createNewGroup.neww" />
       </list>
     </recent_temporary>
   </component>
@@ -159,33 +166,57 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="763" y="310" key="FileChooserDialogImpl" timestamp="1586882450286">
+    <state x="552" y="182" key="#Notifications" timestamp="1586944523285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="763" y="310" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586882450286" />
-    <state width="1877" height="238" key="GridCell.Tab.0.bottom" timestamp="1586882404859">
+    <state x="552" y="182" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1586944523285" />
+    <state x="835" y="330" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1587231062460">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="238" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586882404859" />
-    <state width="1877" height="238" key="GridCell.Tab.0.center" timestamp="1586882404859">
+    <state x="835" y="330" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587231062460" />
+    <state x="763" y="310" key="FileChooserDialogImpl" timestamp="1586944865308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="238" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586882404859" />
-    <state width="1877" height="238" key="GridCell.Tab.0.left" timestamp="1586882404859">
+    <state x="763" y="310" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586944865308" />
+    <state width="1877" height="236" key="GridCell.Tab.0.bottom" timestamp="1587238621856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="238" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586882404859" />
-    <state width="1877" height="238" key="GridCell.Tab.0.right" timestamp="1586882404859">
+    <state width="1877" height="236" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587238621856" />
+    <state width="1877" height="236" key="GridCell.Tab.0.center" timestamp="1587238621856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="238" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586882404859" />
-    <state x="486" y="197" key="SettingsEditor" timestamp="1586882521069">
+    <state width="1877" height="236" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587238621856" />
+    <state width="1877" height="236" key="GridCell.Tab.0.left" timestamp="1587238621856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="486" y="197" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586882521069" />
-    <state x="559" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1586873335966">
+    <state width="1877" height="236" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587238621856" />
+    <state width="1877" height="236" key="GridCell.Tab.0.right" timestamp="1587238621856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="559" y="363" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586873335966" />
+    <state width="1877" height="236" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587238621856" />
+    <state x="738" y="198" width="443" height="668" key="RefactorJ.IntroduceParameterObject" timestamp="1586947854273">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="738" y="198" width="443" height="668" key="RefactorJ.IntroduceParameterObject/0.0.1920.1040@0.0.1920.1040" timestamp="1586947854273" />
+    <state x="664" y="485" key="ReplaceDuplicatesPrompt" timestamp="1587287978098">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="664" y="485" key="ReplaceDuplicatesPrompt/0.0.1920.1040@0.0.1920.1040" timestamp="1587287978098" />
+    <state x="486" y="197" key="SettingsEditor" timestamp="1586946358372">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="486" y="197" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586946358372" />
+    <state x="559" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1587286090982">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="559" y="363" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587286090982" />
+    <state x="830" y="297" width="540" height="482" key="extract.method.dialog" timestamp="1587287943866">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="830" y="297" width="540" height="482" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587287943866" />
+    <state x="668" y="146" key="refactoring.ChangeSignatureDialog" timestamp="1587223114923">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="146" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587223114923" />
   </component>
 </project>
