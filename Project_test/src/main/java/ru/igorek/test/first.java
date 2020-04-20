@@ -2,6 +2,7 @@ package ru.igorek.test;
 
 
 public class first {
+
     public static void main(String[] args) {
 
         greet("Vasya");

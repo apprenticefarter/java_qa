@@ -103,47 +103,10 @@
       <recent name="ru.igorek.test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AddressbookTest">
+  <component name="RunManager" selected="TestNG.SquareTests">
     <configuration name="first" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.igorek.test.first" />
       <module name="Project_test.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddressbookTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/addressbook-web" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.igorek.addressbook.AddressbookTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="AddressbookTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook-web.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.igorek.addressbook.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.igorek.addressbook" />
-      <option name="MAIN_CLASS_NAME" value="ru.igorek.addressbook.AddressbookTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -183,13 +146,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SquareTests.testPoint" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Project_test.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.igorek.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.igorek.test" />
+      <option name="MAIN_CLASS_NAME" value="ru.igorek.test.SquareTests" />
+      <option name="METHOD_NAME" value="testPoint" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="first.main" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Project_test.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.igorek.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.igorek.test" />
+      <option name="MAIN_CLASS_NAME" value="ru.igorek.test.first" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AddressbookTest" />
-        <item itemvalue="Gradle.AddressbookTest" />
-        <item itemvalue="TestNG.SquareTests.testCube" />
         <item itemvalue="TestNG.SquareTests" />
+        <item itemvalue="TestNG.SquareTests.testPoint" />
+        <item itemvalue="TestNG.SquareTests.testCube" />
         <item itemvalue="Application.first" />
+        <item itemvalue="TestNG.first.main" />
       </list>
     </recent_temporary>
   </component>
@@ -216,18 +215,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="279" y="222" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1586426291264" />
-    <state x="374" y="158" key="#Project_Structure" timestamp="1586771210123">
+    <state x="374" y="158" key="#Project_Structure" timestamp="1587373215733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="374" y="158" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1586771210123" />
+    <state x="374" y="158" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1587373215733" />
     <state x="141" y="218" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586438064656">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="141" y="218" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586438064656" />
-    <state x="639" y="166" width="1022" height="717" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586769665445">
+    <state x="639" y="166" width="1022" height="717" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1587374374372">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="639" y="166" width="1022" height="717" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586769665445" />
+    <state x="639" y="166" width="1022" height="717" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587374374372" />
     <state x="488" y="429" width="398" height="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586423655525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -236,22 +235,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="798" y="244" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586771080396" />
-    <state width="1162" height="323" key="GridCell.Tab.0.bottom" timestamp="1586781953724">
+    <state width="1877" height="379" key="GridCell.Tab.0.bottom" timestamp="1587374375323">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1162" height="323" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586781953724" />
-    <state width="1162" height="323" key="GridCell.Tab.0.center" timestamp="1586781953724">
+    <state width="1877" height="379" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587374375323" />
+    <state width="1877" height="379" key="GridCell.Tab.0.center" timestamp="1587374375323">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1162" height="323" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586781953724" />
-    <state width="1162" height="323" key="GridCell.Tab.0.left" timestamp="1586781953724">
+    <state width="1877" height="379" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587374375323" />
+    <state width="1877" height="379" key="GridCell.Tab.0.left" timestamp="1587374375323">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1162" height="323" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586781953724" />
-    <state width="1162" height="323" key="GridCell.Tab.0.right" timestamp="1586781953724">
+    <state width="1877" height="379" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587374375323" />
+    <state width="1877" height="379" key="GridCell.Tab.0.right" timestamp="1587374375323">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1162" height="323" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586781953724" />
+    <state width="1877" height="379" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587374375323" />
     <state width="1162" height="295" key="GridCell.Tab.1.bottom" timestamp="1586440936995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
