@@ -17,6 +17,17 @@ public class groupHelper extends helperBase {
         type(By.name("group_footer"), groupData.getFooter());
 
     }
+    public void fillContact() {
+        driver.findElement(By.name("firstname")).click();
+        driver.findElement(By.name("firstname")).sendKeys("Cent");
+        driver.findElement(By.name("middlename")).sendKeys("50");
+        driver.findElement(By.name("lastname")).sendKeys("Jacobs");
+        driver.findElement(By.name("nickname")).sendKeys("LUL");
+        driver.findElement(By.name("address")).sendKeys("mexico");
+        driver.findElement(By.name("mobile")).sendKeys("911");
+        driver.findElement(By.cssSelector("input:nth-child(87)")).click();
+
+    }
 
     public void submitGroup() {
         click(By.name("submit"));
@@ -41,5 +52,9 @@ public class groupHelper extends helperBase {
 
     public void initUpdate() {
         click(By.name("update"));
+    }
+
+    public void chooseADdCOntact() {
+        click(By.linkText("add new"));
     }
 }
