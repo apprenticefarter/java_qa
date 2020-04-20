@@ -1,6 +1,7 @@
 package ru.igorek.addressbook.tests;
 
 import org.junit.Test;
+import ru.igorek.addressbook.appmanager.GroupData;
 import ru.igorek.addressbook.model.testbase;
 
 public class GroupModification extends testbase {

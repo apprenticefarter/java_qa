@@ -1,4 +1,4 @@
-package ru.igorek.addressbook.tests;
+package ru.igorek.addressbook.appmanager;
 
 public class GroupData {
     private final String name;

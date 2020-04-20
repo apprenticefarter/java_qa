@@ -9,6 +9,7 @@ import java.util.Map;
 public class applicationManager {
     public WebDriver driver;
 
+    private  ContactHElper contactHElper;
     private  sessionHelper sessionHelper;
     private  groupHelper groupHelper;
     public Map<String, Object> vars;
@@ -21,9 +22,10 @@ public class applicationManager {
         groupHelper = new groupHelper(driver);
         sessionHelper = new sessionHelper(driver);
         sessionHelper.login("admin", "secret");
+        contactHElper = new ContactHElper(driver);
+
 
     }
-
 
 
     public void stop() {
@@ -36,5 +38,9 @@ public class applicationManager {
 
     public ru.igorek.addressbook.appmanager.sessionHelper getSessionHelper() {
         return sessionHelper;
+    }
+
+    public ContactHElper getContactHElper() {
+        return contactHElper;
     }
 }

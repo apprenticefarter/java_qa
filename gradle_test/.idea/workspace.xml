@@ -63,12 +63,12 @@
       <recent name="ru.igorek.addressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AddContact.testAddContact">
+  <component name="RunManager" selected="JUnit.deleteContact">
     <configuration name="AddContact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gradle_test.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.igorek.addressbook.tests.*" />
+          <option name="PATTERN" value="ru.igorek.addressbook.appmanager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,7 +83,7 @@
       <module name="gradle_test.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.igorek.addressbook.tests.*" />
+          <option name="PATTERN" value="ru.igorek.addressbook.appmanager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,7 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupModification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gradle_test.test" />
       <extension name="coverage">
         <pattern>
@@ -104,37 +104,38 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.igorek.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.igorek.addressbook.tests.GroupModification" />
+      <option name="MAIN_CLASS_NAME" value="ru.igorek.addressbook.tests.DeleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="createNewGroup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="createNewGroup.testCreateGropus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gradle_test.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.igorek.addressbook.appmanager.*" />
+          <option name="PATTERN" value="ru.igorek.addressbook.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.igorek.addressbook.tests" />
       <option name="MAIN_CLASS_NAME" value="ru.igorek.addressbook.tests.createNewGroup" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testCreateGropus" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="deleteGroup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="deleteContact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gradle_test.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.igorek.addressbook.appmanager.*" />
+          <option name="PATTERN" value="ru.igorek.addressbook.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.igorek.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.igorek.addressbook.tests.deleteGroup" />
+      <option name="MAIN_CLASS_NAME" value="ru.igorek.addressbook.tests.deleteContact" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AddContact.testAddContact" />
+        <item itemvalue="JUnit.deleteContact" />
         <item itemvalue="JUnit.AddContact" />
-        <item itemvalue="JUnit.GroupModification" />
-        <item itemvalue="JUnit.createNewGroup" />
-        <item itemvalue="JUnit.deleteGroup" />
+        <item itemvalue="JUnit.DeleTest" />
+        <item itemvalue="JUnit.createNewGroup.testCreateGropus" />
+        <item itemvalue="JUnit.AddContact.testAddContact" />
       </list>
     </recent_temporary>
   </component>
@@ -168,34 +169,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="182" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1586944523285" />
-    <state x="835" y="330" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1587289057927">
+    <state x="835" y="330" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1587386987112">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="835" y="330" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587289057927" />
+    <state x="835" y="330" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587386987112" />
     <state x="763" y="310" key="FileChooserDialogImpl" timestamp="1587373158557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="763" y="310" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587373158557" />
-    <state width="1877" height="236" key="GridCell.Tab.0.bottom" timestamp="1587380693298">
+    <state width="1877" height="236" key="GridCell.Tab.0.bottom" timestamp="1587388904531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="236" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587380693298" />
-    <state width="1877" height="236" key="GridCell.Tab.0.center" timestamp="1587380693298">
+    <state width="1877" height="236" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587388904531" />
+    <state width="1877" height="236" key="GridCell.Tab.0.center" timestamp="1587388904531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="236" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587380693298" />
-    <state width="1877" height="236" key="GridCell.Tab.0.left" timestamp="1587380693297">
+    <state width="1877" height="236" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587388904531" />
+    <state width="1877" height="236" key="GridCell.Tab.0.left" timestamp="1587388904531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="236" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587380693297" />
-    <state width="1877" height="236" key="GridCell.Tab.0.right" timestamp="1587380693298">
+    <state width="1877" height="236" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587388904531" />
+    <state width="1877" height="236" key="GridCell.Tab.0.right" timestamp="1587388904531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="236" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587380693298" />
-    <state x="738" y="198" width="443" height="668" key="RefactorJ.IntroduceParameterObject" timestamp="1586947854273">
+    <state width="1877" height="236" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587388904531" />
+    <state x="655" y="229" width="610" height="573" key="RefactorJ.ExtractClass" timestamp="1587387037538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="738" y="198" width="443" height="668" key="RefactorJ.IntroduceParameterObject/0.0.1920.1040@0.0.1920.1040" timestamp="1586947854273" />
+    <state x="655" y="229" width="610" height="573" key="RefactorJ.ExtractClass/0.0.1920.1040@0.0.1920.1040" timestamp="1587387037538" />
+    <state x="738" y="198" width="474" height="668" key="RefactorJ.IntroduceParameterObject" timestamp="1587382437739">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="738" y="198" width="474" height="668" key="RefactorJ.IntroduceParameterObject/0.0.1920.1040@0.0.1920.1040" timestamp="1587382437739" />
     <state x="664" y="485" key="ReplaceDuplicatesPrompt" timestamp="1587287978098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -208,10 +213,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="559" y="363" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587370134663" />
-    <state x="830" y="297" width="540" height="482" key="extract.method.dialog" timestamp="1587287943866">
+    <state x="830" y="297" width="540" height="482" key="extract.method.dialog" timestamp="1587381341086">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="830" y="297" width="540" height="482" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587287943866" />
+    <state x="830" y="297" width="540" height="482" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587381341086" />
     <state x="668" y="146" key="refactoring.ChangeSignatureDialog" timestamp="1587223114923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
