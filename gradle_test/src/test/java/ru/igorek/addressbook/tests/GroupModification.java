@@ -2,9 +2,9 @@ package ru.igorek.addressbook.tests;
 
 import org.junit.Test;
 import ru.igorek.addressbook.appmanager.GroupData;
-import ru.igorek.addressbook.model.testbase;
+import ru.igorek.addressbook.model.TestBase;
 
-public class GroupModification extends testbase {
+public class GroupModification extends TestBase {
     @Test
     public void testGroupModification(){
         app.getGroupHelper().chooseGroups();

@@ -2,11 +2,11 @@ package ru.igorek.addressbook.model;
 
 import org.junit.After;
 import org.junit.Before;
-import ru.igorek.addressbook.appmanager.applicationManager;
+import ru.igorek.addressbook.appmanager.ApplicationManager;
 
-public class testbase {
+public class TestBase {
 
-    protected final applicationManager app = new applicationManager();
+    protected final ApplicationManager app = new ApplicationManager();
 
     @Before
     public void setUp() {

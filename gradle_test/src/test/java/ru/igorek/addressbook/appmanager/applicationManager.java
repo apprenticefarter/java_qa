@@ -6,12 +6,12 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import java.util.HashMap;
 import java.util.Map;
 
-public class applicationManager {
+public class ApplicationManager {
     public WebDriver driver;
 
     private  ContactHElper contactHElper;
-    private  sessionHelper sessionHelper;
-    private  groupHelper groupHelper;
+    private SessionHelper sessionHelper;
+    private GroupHelper groupHelper;
     public Map<String, Object> vars;
     JavascriptExecutor js;
 
@@ -19,8 +19,8 @@ public class applicationManager {
         driver = new FirefoxDriver();
         js = (JavascriptExecutor) driver;
         vars = new HashMap<String, Object>();
-        groupHelper = new groupHelper(driver);
-        sessionHelper = new sessionHelper(driver);
+        groupHelper = new GroupHelper(driver);
+        sessionHelper = new SessionHelper(driver);
         sessionHelper.login("admin", "secret");
         contactHElper = new ContactHElper(driver);
 
@@ -32,11 +32,11 @@ public class applicationManager {
         driver.quit();
     }
 
-    public ru.igorek.addressbook.appmanager.groupHelper getGroupHelper() {
+    public GroupHelper getGroupHelper() {
         return groupHelper;
     }
 
-    public ru.igorek.addressbook.appmanager.sessionHelper getSessionHelper() {
+    public SessionHelper getSessionHelper() {
         return sessionHelper;
     }
 

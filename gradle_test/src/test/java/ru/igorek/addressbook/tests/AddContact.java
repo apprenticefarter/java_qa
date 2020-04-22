@@ -2,9 +2,9 @@ package ru.igorek.addressbook.tests;
 
 import org.junit.Test;
 import ru.igorek.addressbook.appmanager.ContactData;
-import ru.igorek.addressbook.model.testbase;
+import ru.igorek.addressbook.model.TestBase;
 
-public class AddContact extends testbase {
+public class addContact extends TestBase {
     @Test
     public void testAddContact(){
        app.getContactHElper().chooseADdCOntact();

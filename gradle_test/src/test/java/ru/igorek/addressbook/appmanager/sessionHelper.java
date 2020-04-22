@@ -4,8 +4,8 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class sessionHelper extends helperBase{
-    public sessionHelper(WebDriver driver){
+public class SessionHelper extends HelperBase {
+    public SessionHelper(WebDriver driver){
         super(driver);
     }
 

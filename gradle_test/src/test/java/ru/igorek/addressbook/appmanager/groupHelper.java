@@ -3,9 +3,9 @@ package ru.igorek.addressbook.appmanager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class groupHelper extends helperBase {
+public class GroupHelper extends HelperBase {
 
-    public groupHelper(WebDriver driver) {
+    public GroupHelper(WebDriver driver) {
         super(driver);
 
     }

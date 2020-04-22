@@ -1,9 +1,9 @@
 package ru.igorek.addressbook.tests;
 
 import org.junit.Test;
-import ru.igorek.addressbook.model.testbase;
+import ru.igorek.addressbook.model.TestBase;
 
-public class deleteContact extends testbase {
+public class deleteContact extends TestBase {
    @Test
    public void testDeleteContact(){
 
