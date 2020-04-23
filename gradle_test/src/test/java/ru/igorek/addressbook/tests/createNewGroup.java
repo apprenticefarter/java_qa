@@ -11,7 +11,7 @@ public class createNewGroup extends TestBase {
 
         app.getGroupHelper().chooseGroups();
         app.getGroupHelper().chooseNewGroup();
-        app.getGroupHelper().fillGroup(new GroupData("222", "dd", "ff"));
+        app.getGroupHelper().fillGroup(new GroupData("222", null, null));
         app.getGroupHelper().submitGroup();
 
         app.getSessionHelper().logOut();

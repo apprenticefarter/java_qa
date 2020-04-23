@@ -63,37 +63,12 @@
       <recent name="ru.igorek.addressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EquataionTest">
-    <configuration name="DeleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gradle_test.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.igorek.addressbook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.igorek.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.igorek.addressbook.tests.DeleTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.createNewGroup">
     <configuration name="EquataionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gradle_test.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="EquataionTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EquataionTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gradle_test.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EquataionTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,6 +83,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.igorek.addressbook.tests" />
       <option name="MAIN_CLASS_NAME" value="ru.igorek.addressbook.tests.addContact" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="createNewGroup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gradle_test.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.igorek.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.igorek.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.igorek.addressbook.tests.createNewGroup" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,13 +118,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="deleteGroup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gradle_test.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.igorek.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.igorek.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.igorek.addressbook.tests.deleteGroup" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EquataionTest" />
-        <item itemvalue="JUnit.EquataionTest.test1" />
-        <item itemvalue="JUnit.deleteContact" />
+        <item itemvalue="JUnit.createNewGroup" />
         <item itemvalue="JUnit.addContact" />
-        <item itemvalue="JUnit.DeleTest" />
+        <item itemvalue="JUnit.deleteGroup" />
+        <item itemvalue="JUnit.deleteContact" />
+        <item itemvalue="JUnit.EquataionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -172,22 +177,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="763" y="310" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587373158557" />
-    <state width="1877" height="236" key="GridCell.Tab.0.bottom" timestamp="1587551507546">
+    <state width="1162" height="199" key="GridCell.Tab.0.bottom" timestamp="1587633574370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="236" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587551507546" />
-    <state width="1877" height="236" key="GridCell.Tab.0.center" timestamp="1587551507546">
+    <state width="1162" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587633574370" />
+    <state width="1162" height="199" key="GridCell.Tab.0.center" timestamp="1587633574369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="236" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587551507546" />
-    <state width="1877" height="236" key="GridCell.Tab.0.left" timestamp="1587551507546">
+    <state width="1162" height="199" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587633574369" />
+    <state width="1162" height="199" key="GridCell.Tab.0.left" timestamp="1587633574369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="236" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587551507546" />
-    <state width="1877" height="236" key="GridCell.Tab.0.right" timestamp="1587551507546">
+    <state width="1162" height="199" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587633574369" />
+    <state width="1162" height="199" key="GridCell.Tab.0.right" timestamp="1587633574369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="236" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587551507546" />
+    <state width="1162" height="199" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587633574369" />
     <state x="655" y="229" width="610" height="573" key="RefactorJ.ExtractClass" timestamp="1587387037538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -204,10 +209,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="486" y="197" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586946358372" />
-    <state x="559" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1587550014609">
+    <state x="559" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1587632562166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="559" y="363" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587550014609" />
+    <state x="559" y="363" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587632562166" />
     <state x="830" y="297" width="540" height="482" key="extract.method.dialog" timestamp="1587381341086">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
