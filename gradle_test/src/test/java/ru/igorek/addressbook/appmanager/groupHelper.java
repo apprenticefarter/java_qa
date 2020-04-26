@@ -2,6 +2,8 @@ package ru.igorek.addressbook.appmanager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import ru.igorek.addressbook.model.GroupData;
+import ru.igorek.addressbook.model.HelperBase;
 
 public class GroupHelper extends HelperBase {
 
@@ -29,7 +31,9 @@ public class GroupHelper extends HelperBase {
     public void chooseGroups() {
         click(By.linkText("groups"));
     }
-
+    public void chooseGrouptoEdit(){
+        click(By.cssSelector(".group:nth-child(6) > input"));
+    }
     public void deleteSelectedGroups() {
         click(By.cssSelector(".group:nth-child(6) > input"));
         click(By.name("delete"));

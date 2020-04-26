@@ -3,6 +3,7 @@ package ru.igorek.addressbook.appmanager;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import ru.igorek.addressbook.model.HelperBase;
 
 public class SessionHelper extends HelperBase {
     public SessionHelper(WebDriver driver){

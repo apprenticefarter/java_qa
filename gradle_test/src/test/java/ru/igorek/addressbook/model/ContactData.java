@@ -1,4 +1,4 @@
-package ru.igorek.addressbook.appmanager;
+package ru.igorek.addressbook.model;
 
 public class ContactData {
     private final String firstname;
@@ -7,14 +7,16 @@ public class ContactData {
     private final String nickname;
     private final String address;
     private final String phonenumber;
+    private String group;
 
-    public ContactData(String firstname, String midllename, String lastname, String nickname, String address, String phonenumber) {
+    public ContactData(String firstname, String midllename, String lastname, String nickname, String address, String phonenumber,String group) {
         this.firstname = firstname;
         this.midllename = midllename;
         this.lastname = lastname;
         this.nickname = nickname;
         this.address = address;
         this.phonenumber = phonenumber;
+        this.group = group;
     }
 
     public String getFirstname() {
@@ -39,5 +41,9 @@ public class ContactData {
 
     public String getPhonenumber() {
         return phonenumber;
+    }
+
+    public String getGroup() {
+        return group;
     }
 }
