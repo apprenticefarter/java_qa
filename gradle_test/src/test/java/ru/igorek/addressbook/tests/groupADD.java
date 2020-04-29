@@ -5,20 +5,26 @@ import org.junit.Test;
 import ru.igorek.addressbook.model.GroupData;
 import ru.igorek.addressbook.model.TestBase;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class groupADD extends TestBase {
 
     @Test
     public void testCreateGropus() {
 
         app.getGroupHelper().chooseGroups();
-        int before = app.getGroupHelper().countGroups();
+        //int before = app.getGroupHelper().countGroups();
+        List<GroupData> before = app.getGroupHelper().getGroupList();
         app.getGroupHelper().chooseNewGroup();
         app.getGroupHelper().fillGroup(new GroupData("222", null, null));
         app.getGroupHelper().submitGroup();
         app.getGroupHelper().chooseGroups();
+        List<GroupData> after = app.getGroupHelper().getGroupList();
 
-        int after = app.getGroupHelper().countGroups();
-        Assert.assertEquals(after, before + 1);
+
+        Assert.assertEquals(after.size(), before.size() + 1);
+        //int after = app.getGroupHelper().countGroups();
         app.getSessionHelper().logOut();
     }
 

@@ -4,6 +4,8 @@ import org.junit.Test;
 import ru.igorek.addressbook.model.GroupData;
 import ru.igorek.addressbook.model.TestBase;
 
+import java.util.List;
+
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.core.IsNot.not;
 
@@ -19,14 +21,16 @@ public class groupDELETE extends TestBase {
       app.getGroupHelper().createGroup(new GroupData("222", null, null));
       app.getGroupHelper().chooseGroups();
     }
-    int before = app.getGroupHelper().countGroups();
+    //int before = app.getGroupHelper().countGroups();
+    List<GroupData> before = app.getGroupHelper().getGroupList();
 
     app.getGroupHelper().deleteSelectedGroups();
     app.getGroupHelper().chooseGroups();
 
-    int after = app.getGroupHelper().countGroups();
-    Assert.assertEquals(after, before -1);
-
+    //int after = app.getGroupHelper().countGroups();
+   // Assert.assertEquals(after, before -1);
+    List<GroupData> after = app.getGroupHelper().getGroupList();
+    Assert.assertEquals(after.size(), before.size() -1);
 
   }
 

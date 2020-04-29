@@ -5,6 +5,8 @@ import org.junit.Test;
 import ru.igorek.addressbook.model.ContactData;
 import ru.igorek.addressbook.model.TestBase;
 
+import java.util.List;
+
 public class contactDelete extends TestBase {
    @Test
    public void testDeleteContact(){
@@ -13,12 +15,16 @@ public class contactDelete extends TestBase {
                  "Jacobs", "LUL", "mexico", "911","[none]"),true);
          app.getContactHElper().goHome();
       }
-      int before = app.getContactHElper().countContact();
+      //int before = app.getContactHElper().countContact();
+      List<ContactData> before = app.getContactHElper().getContactList();
 
       app.getContactHElper().deleteContact();
       app.getContactHElper().goHome();
-      int after = app.getContactHElper().countContact();
-      Assert.assertEquals(after, before -1);
+
+      List<ContactData> after = app.getContactHElper().getContactList();
+      Assert.assertEquals(after.size(),before.size() -1);
+      //int after = app.getContactHElper().countContact();
+      //Assert.assertEquals(after, before -1);
 
    }
 }
