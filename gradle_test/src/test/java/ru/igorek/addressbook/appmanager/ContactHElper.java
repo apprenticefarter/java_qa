@@ -49,7 +49,7 @@ public class ContactHElper extends HelperBase {
     public void deleteContact() {
 
 
-        click(By.id("22"));
+        click(By.name("selected[]"));
         click(By.cssSelector(".left:nth-child(8) > input"));
         assertThat(driver.switchTo().alert().getText(), is("Delete 1 addresses?"));
         driver.switchTo().alert().accept();
@@ -58,7 +58,22 @@ public class ContactHElper extends HelperBase {
     }
 
 
+    public void createNewContact(ContactData data,boolean creation) {
+        chooseADdCOntact();
+        initNewContact();
+        fillContact(data,creation);
+        submitContact();
+    }
 
+    public boolean contactExistanceCheck() {
+        return isElemetPresent(By.name("selected[]"));
+    }
 
+    public void goHome() {
+        click(By.linkText("home"));
+    }
 
+    public int countContact() {
+        return driver.findElements(By.name("selected[]")).size();
+    }
 }

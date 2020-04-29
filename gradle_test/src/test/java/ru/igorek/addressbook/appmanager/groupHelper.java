@@ -31,11 +31,11 @@ public class GroupHelper extends HelperBase {
     public void chooseGroups() {
         click(By.linkText("groups"));
     }
-    public void chooseGrouptoEdit(){
-        click(By.cssSelector(".group:nth-child(6) > input"));
+    public void chooseGrouptoEdit(int index){
+      driver.findElements(By.name("selected[]")).get(index).click();
     }
     public void deleteSelectedGroups() {
-        click(By.cssSelector(".group:nth-child(6) > input"));
+        click(By.name("selected[]"));
         click(By.name("delete"));
     }
 
@@ -48,4 +48,17 @@ public class GroupHelper extends HelperBase {
     }
 
 
+    public void createGroup(GroupData group) {
+        chooseNewGroup();
+        fillGroup(group);
+        submitGroup();
+    }
+
+    public boolean chekGroupExistance() {
+        return isElemetPresent(By.name("selected[]"));
+    }
+
+    public int countGroups() {
+        return driver.findElements(By.name("selected[]")).size();
+    }
 }

@@ -16,7 +16,8 @@ public class SessionHelper extends HelperBase {
         type(By.name("user"),login);
         type(By.name("pass"),password);
         driver.findElement(By.name("pass")).sendKeys(Keys.ENTER);
-        WebElement myDynamicElement = (new WebDriverWait(driver, 10)).until(ExpectedConditions.presenceOfElementLocated(By.linkText("groups")));
+        WebElement myDynamicElement = (new WebDriverWait(driver,
+                10)).until(ExpectedConditions.presenceOfElementLocated(By.linkText("groups")));
     }
     public void logOut() {
         driver.findElement(By.linkText("Logout")).click();
