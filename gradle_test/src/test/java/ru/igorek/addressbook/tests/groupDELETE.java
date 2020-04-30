@@ -23,7 +23,7 @@ public class groupDELETE extends TestBase {
     }
     //int before = app.getGroupHelper().countGroups();
     List<GroupData> before = app.getGroupHelper().getGroupList();
-
+    app.getGroupHelper().chooseGrouptoEdit(0);
     app.getGroupHelper().deleteSelectedGroups();
     app.getGroupHelper().chooseGroups();
 
@@ -31,6 +31,9 @@ public class groupDELETE extends TestBase {
    // Assert.assertEquals(after, before -1);
     List<GroupData> after = app.getGroupHelper().getGroupList();
     Assert.assertEquals(after.size(), before.size() -1);
+
+    before.remove(0);
+    Assert.assertEquals(after,before);
 
   }
 

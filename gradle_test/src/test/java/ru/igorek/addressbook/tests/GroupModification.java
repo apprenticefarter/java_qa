@@ -5,6 +5,7 @@ import org.junit.Test;
 import ru.igorek.addressbook.model.GroupData;
 import ru.igorek.addressbook.model.TestBase;
 
+import java.util.HashSet;
 import java.util.List;
 
 public class groupModification extends TestBase {
@@ -28,5 +29,10 @@ public class groupModification extends TestBase {
         //Assert.assertEquals(after,before);
         List<GroupData> after = app.getGroupHelper().getGroupList();
         Assert.assertEquals(after.size(), before.size());
+        String id = before.get(0).getId();
+        before.remove(0);
+        before.add(new GroupData(id,"HHHHH", null, null));
+        Assert.assertEquals(new HashSet<Object>(before),new HashSet<Object>(after));
+
     }
 }
