@@ -21,7 +21,7 @@ public class ContactHElper extends HelperBase {
 
     }
 
-    public void fillContact(ContactData contactData,boolean creation) {
+    public void fillContact(ContactData contactData) {
 
         type(By.name("firstname"),contactData.getFirstname());
         type(By.name("middlename"),contactData.getMidllename());
@@ -29,10 +29,7 @@ public class ContactHElper extends HelperBase {
         type(By.name("nickname"),contactData.getNickname());
         type(By.name("address"),contactData.getAddress());
         type(By.name("mobile"),contactData.getPhonenumber());
-        if(creation){
-            new Select (driver.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroup());
-        } else
-            Assert.assertFalse(isElemetPresent(By.name("new_group")));
+
 
     }
 
@@ -63,10 +60,10 @@ public class ContactHElper extends HelperBase {
     }
 
 
-    public void createNewContact(ContactData data,boolean creation) {
+    public void createNewContact(ContactData data) {
         chooseADdCOntact();
         initNewContact();
-        fillContact(data,creation);
+        fillContact(data);
         submitContact();
     }
 
@@ -84,9 +81,11 @@ public class ContactHElper extends HelperBase {
 
     public List<ContactData> getContactList() {
         List<ContactData> contacts = new ArrayList<>();
-        List<WebElement> elements = driver.findElements(By.name("selected[]"));
-        for(WebElement element : elements){
-            String name = element.getText();
+        List<WebElement> elements = driver.findElements(By.xpath("//table[@id=\'maintable\']/tbody/tr"));
+        for(int i=2;i < elements.size()+1;i++){
+            String name = driver.findElement(By.xpath("//table[@id=\'maintable\']/tbody/tr["+i+"]/td[3]")).getText();
+            System.out.println(name);
+            //int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
             ContactData contact = new ContactData(name,null,null,null,
                     null,null,null);
             contacts.add(contact);

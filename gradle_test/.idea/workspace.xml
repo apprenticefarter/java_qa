@@ -27,6 +27,9 @@
       </state>
     </system>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="gradle_test" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -55,6 +58,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
@@ -63,8 +67,9 @@
       <recent name="ru.igorek.addressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.groupModification.testGroupModification">
-    <configuration name="contactModification.testContatcModification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestSuite">
+    <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.igorek.addressbook.tests.TestRunner" />
       <module name="gradle_test.test" />
       <extension name="coverage">
         <pattern>
@@ -72,15 +77,11 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.igorek.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.igorek.addressbook.tests.contactModification" />
-      <option name="METHOD_NAME" value="testContatcModification" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="groupDELETE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gradle_test.test" />
       <extension name="coverage">
         <pattern>
@@ -89,13 +90,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.igorek.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.igorek.addressbook.tests.groupDELETE" />
+      <option name="MAIN_CLASS_NAME" value="ru.igorek.addressbook.tests.TestSuite" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="groupDELETE.deleteGroup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="contactDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gradle_test.test" />
       <extension name="coverage">
         <pattern>
@@ -104,29 +105,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.igorek.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.igorek.addressbook.tests.groupDELETE" />
-      <option name="METHOD_NAME" value="deleteGroup" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="groupModification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gradle_test.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.igorek.addressbook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.igorek.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.igorek.addressbook.tests.groupModification" />
+      <option name="MAIN_CLASS_NAME" value="ru.igorek.addressbook.tests.contactDelete" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="groupModification.testGroupModification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="contactDelete.testDeleteContact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gradle_test.test" />
       <extension name="coverage">
         <pattern>
@@ -135,20 +120,34 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.igorek.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.igorek.addressbook.tests.groupModification" />
-      <option name="METHOD_NAME" value="testGroupModification" />
+      <option name="MAIN_CLASS_NAME" value="ru.igorek.addressbook.tests.contactDelete" />
+      <option name="METHOD_NAME" value="testDeleteContact" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.igorek.addressbook.tests in gradle_test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gradle_test.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.igorek.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.igorek.addressbook.tests" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.groupModification.testGroupModification" />
-        <item itemvalue="JUnit.groupModification" />
-        <item itemvalue="JUnit.groupDELETE.deleteGroup" />
-        <item itemvalue="JUnit.groupDELETE" />
-        <item itemvalue="JUnit.contactModification.testContatcModification" />
+        <item itemvalue="JUnit.TestSuite" />
+        <item itemvalue="JUnit.contactDelete" />
+        <item itemvalue="JUnit.contactDelete.testDeleteContact" />
+        <item itemvalue="Application.TestRunner" />
+        <item itemvalue="JUnit.ru.igorek.addressbook.tests in gradle_test.test" />
       </list>
     </recent_temporary>
   </component>
@@ -174,54 +173,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="182" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1587550491935" />
-    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1587551288120">
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1589014589442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587551288120" />
-    <state x="661" y="218" key="#com.intellij.ide.util.MemberChooser" timestamp="1588253252693">
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589014589442" />
+    <state x="661" y="218" key="#com.intellij.ide.util.MemberChooser" timestamp="1588775659739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="661" y="218" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1588253252693" />
+    <state x="661" y="218" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1588775659739" />
     <state x="835" y="330" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1587895326340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="835" y="330" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587895326340" />
+    <state x="623" y="312" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1588255390162">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="312" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588255390162" />
+    <state x="699" y="384" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1588844859093">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="699" y="384" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1588844859093" />
     <state x="763" y="310" key="FileChooserDialogImpl" timestamp="1587373158557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="763" y="310" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587373158557" />
-    <state width="1392" height="199" key="GridCell.Tab.0.bottom" timestamp="1588254856977">
+    <state width="1392" height="182" key="GridCell.Tab.0.bottom" timestamp="1589189004034">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1392" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588254856977" />
-    <state width="1392" height="199" key="GridCell.Tab.0.center" timestamp="1588254856977">
+    <state width="1392" height="182" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589189004034" />
+    <state width="1392" height="182" key="GridCell.Tab.0.center" timestamp="1589189004034">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1392" height="199" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588254856977" />
-    <state width="1392" height="199" key="GridCell.Tab.0.left" timestamp="1588254856977">
+    <state width="1392" height="182" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589189004034" />
+    <state width="1392" height="182" key="GridCell.Tab.0.left" timestamp="1589189004034">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1392" height="199" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588254856977" />
-    <state width="1392" height="199" key="GridCell.Tab.0.right" timestamp="1588254856977">
+    <state width="1392" height="182" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589189004034" />
+    <state width="1392" height="182" key="GridCell.Tab.0.right" timestamp="1589189004034">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1392" height="199" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588254856977" />
-    <state width="1392" height="320" key="GridCell.Tab.1.bottom" timestamp="1588254356037">
+    <state width="1392" height="182" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589189004034" />
+    <state width="1392" height="319" key="GridCell.Tab.1.bottom" timestamp="1589188443674">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1392" height="320" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588254356037" />
-    <state width="1392" height="320" key="GridCell.Tab.1.center" timestamp="1588254356037">
+    <state width="1392" height="319" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589188443674" />
+    <state width="1392" height="319" key="GridCell.Tab.1.center" timestamp="1589188443673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1392" height="320" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588254356037" />
-    <state width="1392" height="320" key="GridCell.Tab.1.left" timestamp="1588254356037">
+    <state width="1392" height="319" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589188443673" />
+    <state width="1392" height="319" key="GridCell.Tab.1.left" timestamp="1589188443673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1392" height="320" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588254356037" />
-    <state width="1392" height="320" key="GridCell.Tab.1.right" timestamp="1588254356037">
+    <state width="1392" height="319" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589188443673" />
+    <state width="1392" height="319" key="GridCell.Tab.1.right" timestamp="1589188443673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1392" height="320" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588254356037" />
+    <state width="1392" height="319" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589188443673" />
     <state x="655" y="229" width="610" height="573" key="RefactorJ.ExtractClass" timestamp="1587387037538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -238,10 +245,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="486" y="197" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586946358372" />
-    <state x="559" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1588236334263">
+    <state x="559" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1589186650883">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="559" y="363" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588236334263" />
+    <state x="559" y="363" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589186650883" />
     <state x="830" y="297" width="540" height="482" key="extract.method.dialog" timestamp="1587381341086">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -259,9 +266,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/igorek/addressbook/tests/groupModification.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/test/java/ru/igorek/addressbook/tests/contactModification.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/igorek/addressbook/tests/contactDelete.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

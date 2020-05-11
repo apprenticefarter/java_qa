@@ -6,6 +6,8 @@ import ru.igorek.addressbook.model.GroupData;
 import ru.igorek.addressbook.model.TestBase;
 
 import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.HashSet;
 import java.util.List;
 
 public class groupADD extends TestBase {
@@ -24,6 +26,22 @@ public class groupADD extends TestBase {
 
 
         Assert.assertEquals(after.size(), before.size() + 1);
+
+        int maxID = 0;
+        for (GroupData l : after){
+            if (l.getId() > maxID){
+                maxID = l.getId();
+            }
+        }
+        int max = after.stream()
+                .max(Comparator.comparingInt(GroupData::getId))
+                .get()
+                .getId();
+
+        before.add(new GroupData(max,"222", null, null));
+        Assert.assertEquals(new HashSet<Object>(before),new HashSet<Object>(after));
+
+
         //int after = app.getGroupHelper().countGroups();
         app.getSessionHelper().logOut();
     }
