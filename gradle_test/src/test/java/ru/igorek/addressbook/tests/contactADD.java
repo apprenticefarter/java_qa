@@ -1,10 +1,9 @@
 package ru.igorek.addressbook.tests;
 
-import org.junit.Assert;
-import org.junit.Ignore;
-import org.junit.Test;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
 import ru.igorek.addressbook.model.ContactData;
-import ru.igorek.addressbook.model.GroupData;
 import ru.igorek.addressbook.model.TestBase;
 
 import java.util.Comparator;

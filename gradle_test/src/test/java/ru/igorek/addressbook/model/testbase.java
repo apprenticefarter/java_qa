@@ -1,20 +1,23 @@
 package ru.igorek.addressbook.model;
 
-import org.junit.After;
-import org.junit.Before;
+
 import org.openqa.selenium.remote.BrowserType;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import ru.igorek.addressbook.appmanager.ApplicationManager;
 
 public class TestBase {
 
     protected final ApplicationManager app = new ApplicationManager(BrowserType.FIREFOX);
 
-    @Before
+    @BeforeClass
     public void setUp() {
         app.init();
     }
 
-    @After
+    @AfterClass
     public void tearDown() {
         app.stop();
     }
