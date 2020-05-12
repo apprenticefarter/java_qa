@@ -10,30 +10,28 @@ import java.util.List;
 public class groupDELETE extends TestBase {
 
 
-  @Test
-  public void deleteGroup() {
+    @Test
+    public void deleteGroup() {
 
-    app.getGroupHelper().chooseGroups();
+        app.getGroupHelper().chooseGroups();
 
-    if(! app.getGroupHelper().chekGroupExistance()){
-      app.getGroupHelper().createGroup(new GroupData("222", null, null));
-      app.getGroupHelper().chooseGroups();
+        if (!app.getGroupHelper().chekGroupExistance()) {
+            app.getGroupHelper().createGroup(new GroupData("222", null, null));
+            app.getGroupHelper().chooseGroups();
+        }
+
+        List<GroupData> before = app.getGroupHelper().getGroupList();
+        app.getGroupHelper().chooseGrouptoEdit(0);
+        app.getGroupHelper().deleteSelectedGroups();
+        app.getGroupHelper().chooseGroups();
+
+        List<GroupData> after = app.getGroupHelper().getGroupList();
+        Assert.assertEquals(after.size(), before.size() - 1);
+
+        before.remove(0);
+        Assert.assertEquals(after, before);
+
     }
-    //int before = app.getGroupHelper().countGroups();
-    List<GroupData> before = app.getGroupHelper().getGroupList();
-    app.getGroupHelper().chooseGrouptoEdit(0);
-    app.getGroupHelper().deleteSelectedGroups();
-    app.getGroupHelper().chooseGroups();
 
-    //int after = app.getGroupHelper().countGroups();
-   // Assert.assertEquals(after, before -1);
-    List<GroupData> after = app.getGroupHelper().getGroupList();
-    Assert.assertEquals(after.size(), before.size() -1);
-
-    before.remove(0);
-    Assert.assertEquals(after,before);
-
-  }
-  
 
 }

@@ -15,7 +15,6 @@ public class groupADD extends TestBase {
     public void testCreateGropus() {
 
         app.getGroupHelper().chooseGroups();
-        //int before = app.getGroupHelper().countGroups();
         List<GroupData> before = app.getGroupHelper().getGroupList();
         app.getGroupHelper().chooseNewGroup();
         app.getGroupHelper().fillGroup(new GroupData("222", null, null));
@@ -26,12 +25,7 @@ public class groupADD extends TestBase {
 
         Assert.assertEquals(after.size(), before.size() + 1);
 
-        int maxID = 0;
-        for (GroupData l : after){
-            if (l.getId() > maxID){
-                maxID = l.getId();
-            }
-        }
+
         int max = after.stream()
                 .max(Comparator.comparingInt(GroupData::getId))
                 .get()
@@ -41,7 +35,6 @@ public class groupADD extends TestBase {
         Assert.assertEquals(new HashSet<Object>(before),new HashSet<Object>(after));
 
 
-        //int after = app.getGroupHelper().countGroups();
         app.getSessionHelper().logOut();
     }
 

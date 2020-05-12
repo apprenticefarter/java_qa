@@ -13,7 +13,6 @@ public class contactADD extends TestBase {
 
     @Test
     public void testAddContact() {
-        //int before = app.getContactHElper().countContact();
         List<ContactData> before = app.getContactHElper().getContactList();
         app.getContactHElper().chooseADdCOntact();
         app.getContactHElper().initNewContact();
@@ -32,8 +31,7 @@ public class contactADD extends TestBase {
 
 
 
-        //int after = app.getContactHElper().countContact();
-        //Assert.assertEquals(after, before + 1);
+
 
     }
 
